@@ -12,7 +12,7 @@ endif()
 project ("lcpp_ch1_quiz")
 
 # Add source to this project's executable.
-add_executable (lcpp_ch1_quiz "lcpp_ch1_quiz.cpp" "lcpp_ch1_quiz.h")
+add_executable (lcpp_ch1_quiz "main.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET lcpp_ch1_quiz PROPERTY CXX_STANDARD 20)
